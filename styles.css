@@ -44,7 +44,7 @@ section {
     box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1); /* Subtle shadow for depth */
 }
 
-/* Section Fade-in Animation */
+/* Section Fade-in Animation 
 @keyframes fadeInUp {
     from {
         opacity: 0;
@@ -56,17 +56,17 @@ section {
     }
 }
 
-/* Initially hide sections */
+/* Initially hide sections * /
 section {
     opacity: 0;
     transition: opacity 0.5s ease-out, transform 0.5s ease-out;
 }
 
-/* Class to trigger the animation */
+/* Class to trigger the animation * /
 .section-visible {
     opacity: 1;
     animation: fadeInUp 0.8s ease-out forwards;
-}
+}*/
 
 
 /* Section Titles */
