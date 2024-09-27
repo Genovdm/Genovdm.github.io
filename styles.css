@@ -8,60 +8,55 @@
 body {
     font-family: 'Arial', sans-serif;
     line-height: 1.6;
-    background: linear-gradient(to right, #ff7e5f, #feb47b); /* Example gradient colors */
-    color: #333;
+    /* Gun metal grey to light grey gradient background */
+    background: linear-gradient(to top, #333333, #888888); /* Gun metal grey (#333333) to light grey (#888888) */
+    min-height: 100vh;
+    color: #ffffff; /* Text color for better contrast */
 }
 
+/* Container */
 .container {
     width: 90%;
     margin: 0 auto;
     max-width: 1200px;
 }
 
+/* Header Styling */
 header {
-    background-color: #ffffff;
     text-align: center;
     padding: 20px;
     margin-bottom: 30px;
 }
 
+/* Header Text */
 header h1 {
     font-size: 2.5rem;
-    color: #333;
+    color: #ffffff;
 }
 
 header p {
     font-size: 1.2rem;
     margin: 10px 0;
+    color: #dddddd;
 }
 
-header .btn {
-    display: inline-block;
-    background-color: #007BFF;
-    color: white;
-    padding: 10px 20px;
-    margin-top: 10px;
-    text-decoration: none;
-    border-radius: 5px;
-}
-
-header .btn:hover {
-    background-color: #0056b3;
-}
-
+/* Section Styling */
 section {
     margin: 20px 0;
     padding: 20px;
-    background-color: #ffffff;
+    background-color: rgba(255, 255, 255, 0.1); /* Semi-transparent background */
     border-radius: 8px;
+    backdrop-filter: blur(10px); /* Apply blur effect */
 }
 
+/* Section Titles */
 section h2 {
     font-size: 1.8rem;
-    color: #007BFF;
+    color: #ffffff;
     margin-bottom: 15px;
 }
 
+/* List Styling */
 ul {
     list-style-type: none; /* Remove bullet points for the main list */
     margin: 10px 0;
@@ -72,7 +67,7 @@ ul li {
     margin-bottom: 10px;
 }
 
-/* Bullet points for sub-lists only */
+/* Bullet points for sub-lists */
 ul ul {
     list-style-type: disc; /* Bullet points for sub-items */
     padding-left: 40px;
@@ -88,7 +83,7 @@ ul ul {
 footer {
     text-align: center;
     padding: 20px;
-    background-color: rgba(0, 0, 0, 0.8); /* Dark background */
+    background-color: rgba(0, 0, 0, 0.8); /* Darker semi-transparent background */
     color: #ffffff;
     position: relative;
     bottom: 0;
