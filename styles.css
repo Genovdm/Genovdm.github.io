@@ -8,7 +8,7 @@
 body {
     font-family: 'Arial', sans-serif;
     line-height: 1.6;
-    background-color: #f4f4f4;
+    background: linear-gradient(to right, #ff7e5f, #feb47b); /* Example gradient colors */
     color: #333;
 }
 
@@ -84,6 +84,17 @@ ul ul {
     padding-left: 40px; /* Indent bullet points */
 }
 
+/* Footer Styling */
+footer {
+    text-align: center;
+    padding: 20px;
+    background-color: rgba(0, 0, 0, 0.8); /* Dark background */
+    color: #ffffff;
+    position: relative;
+    bottom: 0;
+    width: 100%;
+    font-size: 0.9rem;
+}
 
 /* Mobile responsiveness */
 @media (max-width: 768px) {
